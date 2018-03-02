@@ -10,11 +10,12 @@ function setCart(c) {
 }
 
 function addToCart(items) {
-    var Obj = {}
+    
 
     for( var i = 0; i<items.length;i++) {
 
-
+      var Obj = {}
+      
       var item = items[i]
 
       Obj[item] = rndNum()
@@ -29,7 +30,7 @@ function addToCart(items) {
     function rndNum () {
         return Math.floor(Math.random() * Math.floor(100))
     }
-  }
+}
 
 
 
