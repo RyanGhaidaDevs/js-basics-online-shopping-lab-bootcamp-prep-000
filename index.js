@@ -17,7 +17,7 @@ function addToCart(items) {
       cart.push(Obj)
       console.log(`${item} has been added to your cart.`)
     }
-    
+
     return cart
 
     function rndNum () {
