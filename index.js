@@ -11,13 +11,16 @@ function setCart(c) {
 
 function addToCart(items) {
     var Obj = {}
-    
+
     for( var i = 0; i<items.length;i++) {
 
 
       var item = items[i]
+
       Obj[item] = rndNum()
+      
       cart.push(Obj)
+
       console.log(`${item} has been added to your cart.`)
     }
 
